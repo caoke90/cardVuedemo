@@ -35,12 +35,7 @@ if(mockArr.length) {
 	})
 }
 
-app.get("/", function(req, res) {
 
-	res.render(__dirname + "/list.ejs", {
-		list: list
-	})
-})
 
 
 //文件上传
