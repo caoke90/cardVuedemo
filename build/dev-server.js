@@ -3,7 +3,7 @@ const path = require('path');
 const express = require('express');
 
 // default port where dev server listens for incoming traffic
-const port = process.env.PORT || 80;
+const port = process.env.PORT || 8083;
 
 const mockArr = require("../mock/index.js");
 const cardsJSON = require("./cardsJSON");
